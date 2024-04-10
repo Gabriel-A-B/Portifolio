@@ -1,0 +1,110 @@
+@charset "UTF-08";
+
+/*mobile*/
+
+.projetos {
+    background: url(../assets/image\ 1.svg) no-repeat;
+    background-size: cover;
+    padding: 1em 0em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.projetos-titulo {
+    font-size: 1.5rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0.5em 0em;
+}
+
+.projetos-conteudo {
+    width: 80%;
+    margin: auto;
+    background: url(../assets/projeto_bg.svg) no-repeat center ;
+    background-size: contain;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.swiper {
+    width: 80%; 
+}
+
+.link-icone {
+    width: 100%;
+}
+
+.swiper-slide {
+    padding: 1em 0em;
+}
+
+.slide-titulo {
+    font-size: 1.5rem;
+    color: white;
+    -webkit-text-stroke: 1px var(--color-destaque-um);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 0px 16px var(--color-destaque-um);
+}
+
+.slide-link {
+    text-decoration: none;
+}
+
+.link-URL {
+    color: white;
+    text-decoration: none;
+    font-family: "Average_Sans", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid white;
+}
+
+.slide-descrição {
+    padding-top: 0.5em;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: relative;
+}
+
+/*tablet/descktop*/
+
+@media screen and (min-width: 1000px){
+
+    .projetos {
+        padding: 0em 0em 2em 0em;
+        gap: 2em;
+    }
+
+    .projetos-titulo {
+        background: url(../assets/PROJETOS-TITULO.svg) no-repeat;
+        background-size: 100vw;
+    }
+
+    .projetos-conteudo {
+        background: url(../assets/PROJETOS-bg.svg) no-repeat center;
+        background-size: contain;
+        padding: 2em;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .link-icone {
+        width: 100%;
+    }
+
+    .swiper {
+        width: 40%;
+    }
+
+}

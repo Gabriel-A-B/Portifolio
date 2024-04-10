@@ -1,0 +1,30 @@
+@charset "UTF-08";
+
+@import url(style/cabecario.css);
+@import url(style/sobreMim.css);
+@import url(style/projetos.css);
+@import url(style/rodaPe.css);
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Average_Sans";
+    src: url(../fontes/Average_Sans/AverageSans-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color-um: #305270;
+    --color-dois: #FFFFFF;
+    --color-destaque-um: #5FB6F0;
+    --color-destaque-dois: #6C7D47;
+
+    --base: #000000;
+}

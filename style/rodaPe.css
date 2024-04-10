@@ -1,0 +1,123 @@
+@charset "UTF-08";
+
+.roda-pe {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1em 0em;
+}
+
+.rodaPe-redes {
+    width: 200px;
+    height: 120px;
+    background: url(../assets/contatos.svg) no-repeat center;
+    background-size: contain;
+}
+
+.rodaPe-redes-lista {
+    display: flex;
+    gap: 0px;
+    padding-left: 4.5em;
+    padding-top: 1em;
+}
+
+.lista-links-img {
+    width: 80%;
+}
+
+.rodaPe-contatos {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contatos-cabeca {
+    text-align: center;
+    width: 80%;
+    border-bottom: 1px solid white;
+    margin: auto;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+
+.cabeca-titulo {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+}
+
+.contatos-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contatos-conteudo-itens {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.conteudo-info {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+}
+
+.icone-img {
+    width: 1.5em;
+}
+
+@media screen and (min-width: 1000px) {
+    .roda-pe {
+        justify-content: space-around;
+        padding: 1em 2em;
+    }
+
+    .rodaPe-redes {
+        width: 400px;
+    }
+
+    .rodaPe-redes-lista {
+        padding-left: 40%;
+        padding-top: 0.2em;
+        gap: 1em;
+    }
+
+    .lista-links-img {
+        width: 100%;
+        padding: 0em;
+    }
+
+    .rodaPe-contatos {
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .contatos-cabeca {
+        border: transparent;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cabeca-titulo {
+        font-size: 2rem;
+    }
+
+    .contatos-conteudo {
+        border-left: 1px white solid;
+        padding-left: 1em;
+    }
+
+    .conteudo-info {
+        font-size: 1rem;
+    }
+
+    .icone-img {
+        width: 2.5em;
+    }
+}
