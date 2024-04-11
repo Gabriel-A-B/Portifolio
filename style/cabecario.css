@@ -37,8 +37,22 @@
     align-items: center;
 }
 
+.itens-link:hover > .itens-link-icone {
+    border: 1.5px solid var(--color-destaque-um);
+    box-shadow: 0px 0px 3em var(--color-destaque-um);
+    transition-duration: 1s;
+}
+
+.itens-link:hover > .itens-link-objeto {
+    font-weight: 500;
+    -webkit-text-stroke: 1px var(--color-destaque-um);
+    text-shadow: 0px 0px 5px var(--color-destaque-um);
+    transition-duration: 1s;
+}
+
 .itens-link-icone {
     width: 50px;
+    border-radius: 50%;
 }
 
 .itens-link-objeto {

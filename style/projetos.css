@@ -107,4 +107,9 @@
         width: 40%;
     }
 
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+    }
+
 }

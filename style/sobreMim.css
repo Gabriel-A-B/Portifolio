@@ -100,6 +100,18 @@
     margin: auto;
     gap: 3.5em;
     padding: 30px;
+    width: auto;
+}
+
+.redes-link-icones {
+    border-radius: 50%;
+}
+
+.redes-link-icones:hover {
+    width: 44px;
+    background: white ;
+    box-shadow: 0px 0px 1em var(--color-destaque-um);
+    transition-duration: 1s;
 }
 
 .redes-link {

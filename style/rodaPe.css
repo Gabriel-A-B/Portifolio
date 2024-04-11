@@ -24,6 +24,16 @@
 }
 
 .lista-links-img {
+    border-radius: 50%;
+}
+
+.lista-links-img:hover {
+    width: 44px;
+    border: 2px solid white;
+    transition-duration: 1s;
+}
+
+.lista-links-img {
     width: 80%;
 }
 
