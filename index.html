@@ -22,12 +22,12 @@
         </div>
 
         <div class="itens">
-            <a href="#" class="itens-link">
+            <a href="#sobreMim" class="itens-link">
                 <img src="assets/SOBRE MIM.svg" alt="sobre mim" class="itens-link-icone">
                 <h2 class="itens-link-objeto">sobre mim</h2>
             </a>
 
-            <a href="#" class="itens-link">
+            <a href="#projetos" class="itens-link">
                 <img src="assets/PROJETOS.svg" alt="meus projetos" class="itens-link-icone">
                 <h2 class="itens-link-objeto">meus projetos</h2>
             </a>
@@ -35,7 +35,7 @@
     </header>
 
     <main class="corpo">
-        <article class="sobreMim">
+        <article class="sobreMim" id="sobreMim">
             <div class="sobreMim-intro">
                 <h1 class="sobreMim-intro-titulo">
                     Dotado de um <span>processador</span> criativo e um <span>software</span> determinado
@@ -81,7 +81,7 @@
             </article>
         </article>
 
-        <article class="projetos">
+        <article class="projetos" id="projetos">
 
             <h1 class="projetos-titulo">Projetos</h1>
 
@@ -198,6 +198,23 @@
 </body>
 
 <script>
+    const cabecalho = document.querySelector('.cabecario')
+    let scrollUltimo = 0
+
+    window.addEventListener('scroll', () => {
+        const scrollAtual = window.scrollY
+        console.log(scrollAtual);
+
+        if (scrollAtual > scrollUltimo && scrollAtual > 100) {
+            cabecalho.classList.add('sumir')
+        }else {
+            cabecalho.classList.remove('sumir')
+            cabecalho.style.transitionDuration = "1s"
+        }
+
+        scrollUltimo = scrollAtual
+    })
+
     const swiper = new Swiper('.swiper', {
         // If we need pagination
         pagination: {
