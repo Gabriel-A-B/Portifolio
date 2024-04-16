@@ -23,7 +23,7 @@
 }
 
 .swiper {
-    width: 60%;
+    width: 50%;
 }
 
 .slide-titulo {
@@ -53,7 +53,7 @@
 }
 
 .swiper-pagination {
-    padding-bottom: 8.5em;
+    padding-bottom: 9.5em;
 }
 
 .swiper-button-prev,
