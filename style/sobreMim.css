@@ -3,10 +3,9 @@
 /*mobile*/
 
 .sobreMim {
-    width: 100%;
     margin: auto;
     background: url(../assets/Designer\ 1.svg) fixed no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .sobreMim-intro {
@@ -44,7 +43,7 @@
 
 .sobreMim-info {
     width: 100%;
-    background: url(../assets/sobre_mim_bg.svg) no-repeat;
+    background: url(../assets/sobre_mim_bg.svg) no-repeat center top;
     background-size: 100vw;
     text-align: center;
     display: flex;

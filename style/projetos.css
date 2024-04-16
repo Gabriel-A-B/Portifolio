@@ -3,6 +3,7 @@
 /*mobile*/
 
 .projetos {
+    box-sizing: border-box;
     background: url(../assets/image\ 1.svg) no-repeat;
     background-size: cover;
     padding: 1em 0em;
@@ -31,7 +32,7 @@
 }
 
 .swiper {
-    width: 60%; 
+    width: 80%; 
 }
 
 .link-icone {
