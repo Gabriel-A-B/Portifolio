@@ -45,7 +45,7 @@
 .sobreMim-info {
     width: 100%;
     background: url(../assets/sobre_mim_bg.svg) no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     text-align: center;
     display: flex;
     flex-direction: column;
