@@ -32,7 +32,7 @@
 }
 
 .swiper {
-    width: 80%; 
+    width: 50%; 
 }
 
 .link-icone {
@@ -76,10 +76,15 @@
     position: relative;
 }
 
-/*tablet/descktop*/
+/*tablet*/
+
+@media screen and (min-width: 610px){
+    .swiper {
+        width: 80%;
+    }
+}
 
 @media screen and (min-width: 1000px){
-
     .projetos {
         padding: 0em 0em 2em 0em;
         gap: 2em;
